@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!C:\Python27\python.exe
 #
 # Copyright (c) 2013-2017 The Khronos Group Inc.
 #
