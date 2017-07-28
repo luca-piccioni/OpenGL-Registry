@@ -1727,6 +1727,12 @@ registry = {
         'flags' : { 'public' },
         'url' : 'extensions/EXT/EXT_draw_transform_feedback.txt',
     },
+    'GL_EXT_external_buffer' : {
+        'number' : 508,
+        'esnumber' : 284,
+        'flags' : { 'public' },
+        'url' : 'extensions/EXT/EXT_external_buffer.txt',
+    },
     'GL_EXT_EGL_image_array' : {
         'esnumber' : 278,
         'flags' : { 'public' },
@@ -2960,6 +2966,13 @@ registry = {
         'url' : 'extensions/NV/NV_blend_equation_advanced.txt',
         'alias' : { 'GL_NV_blend_equation_advanced_coherent' },
     },
+    'GL_NV_blend_minmax_factor' : {
+        'number' : 510,
+        'esnumber' : 285,
+        'flags' : { 'public' },
+        'supporters' : { 'NVIDIA' },
+        'url' : 'extensions/NV/NV_blend_minmax_factor.txt',
+    },
     'GL_NV_blend_square' : {
         'number' : 194,
         'flags' : { 'public' },
@@ -3589,6 +3602,12 @@ registry = {
         'flags' : { 'public' },
         'supporters' : { 'NVIDIA' },
         'url' : 'extensions/NV/NV_texture_rectangle.txt',
+    },
+    'GL_NV_texture_rectangle_compressed' : {
+        'number' : 509,
+        'flags' : { 'public' },
+        'supporters' : { 'NVIDIA' },
+        'url' : 'extensions/NV/NV_texture_rectangle_compressed.txt',
     },
     'GL_NV_texture_shader' : {
         'number' : 230,

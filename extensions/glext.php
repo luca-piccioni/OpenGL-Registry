@@ -951,4 +951,10 @@
 </li>
 <li value=507><a href="extensions/AMD/AMD_gpu_shader_int16.txt">GL_AMD_gpu_shader_int16</a>
 </li>
+<li value=508><a href="extensions/EXT/EXT_external_buffer.txt">GL_EXT_external_buffer</a>
+</li>
+<li value=509><a href="extensions/NV/NV_texture_rectangle_compressed.txt">GL_NV_texture_rectangle_compressed</a>
+</li>
+<li value=510><a href="extensions/NV/NV_blend_minmax_factor.txt">GL_NV_blend_minmax_factor</a>
+</li>
 </ol>
