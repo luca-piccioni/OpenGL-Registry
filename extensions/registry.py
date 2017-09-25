@@ -167,6 +167,12 @@ registry = {
         'flags' : { 'public' },
         'url' : 'extensions/AMD/AMD_shader_explicit_vertex_parameter.txt',
     },
+    'GL_AMD_shader_image_load_store_lod' : {
+        'number' : 513,
+        'flags' : { 'public' },
+        'supporters' : { 'AMD' },
+        'url' : 'extensions/AMD/AMD_shader_image_load_store_lod.txt',
+    },
     'GL_AMD_shader_stencil_export' : {
         'number' : 382,
         'flags' : { 'public' },
@@ -3428,6 +3434,18 @@ registry = {
         'supporters' : { 'NVIDIA' },
         'url' : 'extensions/NV/NV_primitive_restart.txt',
     },
+    'GL_NV_query_resource' : {
+        'number' : 511,
+        'flags' : { 'public' },
+        'supporters' : { 'NVIDIA' },
+        'url' : 'extensions/NV/NV_query_resource.txt',
+    },
+    'GL_NV_query_resource_tag' : {
+        'number' : 512,
+        'flags' : { 'public' },
+        'supporters' : { 'NVIDIA' },
+        'url' : 'extensions/NV/NV_query_resource_tag.txt',
+    },
     'GL_NV_read_buffer' : {
         'esnumber' : 93,
         'flags' : { 'public' },
@@ -5169,6 +5187,12 @@ registry = {
         'flags' : { 'public' },
         'supporters' : { 'NVIDIA' },
         'url' : 'extensions/EXT/WGL_EXT_swap_control_tear.txt',
+    },
+    'GL_EXT_clip_control' : {
+        'esnumber' : 290,
+        'flags' : { 'public' },
+        'supporters' : { 'MESA' },
+        'url' : 'extensions/EXT/EXT_clip_control.txt',
     },
     'WGL_I3D_digital_video_control' : {
         'number' : 250,
