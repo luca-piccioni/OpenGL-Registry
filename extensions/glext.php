@@ -963,4 +963,10 @@
 </li>
 <li value=513><a href="extensions/AMD/AMD_shader_image_load_store_lod.txt">GL_AMD_shader_image_load_store_lod</a>
 </li>
+<li value=514><a href="extensions/MESA/GLX_MESA_swap_control.txt">GLX_MESA_swap_control</a>
+</li>
+<li value=515><a href="extensions/MESA/MESA_tile_raster_order.txt">GL_MESA_tile_raster_order</a>
+</li>
+<li value=516><a href="extensions/MESA/MESA_program_binary_formats.txt">GL_MESA_program_binary_formats</a>
+</li>
 </ol>

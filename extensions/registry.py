@@ -2427,6 +2427,11 @@ registry = {
         'supporters' : { 'NVIDIA' },
         'url' : 'extensions/EXT/EXT_texture_mirror_clamp.txt',
     },
+    'GL_EXT_texture_mirror_clamp_to_edge' : {
+        'esnumber' : 291,
+        'flags' : { 'public' },
+        'url' : 'extensions/EXT/EXT_texture_mirror_clamp_to_edge.txt',
+    },
     'GL_EXT_texture_norm16' : {
         'esnumber' : 207,
         'flags' : { 'public' },
@@ -2886,6 +2891,13 @@ registry = {
         'supporters' : { 'MESA' },
         'url' : 'extensions/MESA/GLX_MESA_pixmap_colormap.txt',
     },
+    'GL_MESA_program_binary_formats' : {
+        'number' : 516,
+        'esnumber' : 294,
+        'flags' : { 'public' },
+        'supporters' : { 'MESA' },
+        'url' : 'extensions/MESA/MESA_program_binary_formats.txt',
+    },
     'GLX_MESA_query_renderer' : {
         'number' : 446,
         'flags' : { 'public' },
@@ -2914,6 +2926,19 @@ registry = {
         'flags' : { 'public' },
         'supporters' : { 'MESA' },
         'url' : 'extensions/MESA/MESA_shader_integer_functions.txt',
+    },
+    'GLX_MESA_swap_control' : {
+        'number' : 514,
+        'flags' : { 'public' },
+        'supporters' : { 'MESA' },
+        'url' : 'extensions/MESA/GLX_MESA_swap_control.txt',
+    },
+    'GL_MESA_tile_raster_order' : {
+        'number' : 515,
+        'esnumber' : 292,
+        'flags' : { 'public' },
+        'supporters' : { 'MESA' },
+        'url' : 'extensions/MESA/MESA_tile_raster_order.txt',
     },
     'GL_MESA_window_pos' : {
         'number' : 197,
@@ -3024,6 +3049,7 @@ registry = {
     },
     'GL_NV_clip_space_w_scaling' : {
         'number' : 486,
+        'esnumber' : 295,
         'flags' : { 'public' },
         'url' : 'extensions/NV/NV_clip_space_w_scaling.txt',
     },
@@ -3088,7 +3114,7 @@ registry = {
     'GL_NV_coverage_sample' : {
         'esnumber' : 72,
         'flags' : { 'public' },
-        'url' : '../EGL-Registry/extensions/NV/EGL_NV_coverage_sample.txt',
+        'url' : '../EGL/extensions/NV/EGL_NV_coverage_sample.txt',
     },
     'GL_NV_deep_texture3D' : {
         'number' : 424,
@@ -3116,7 +3142,7 @@ registry = {
     'GL_NV_depth_nonlinear' : {
         'esnumber' : 73,
         'flags' : { 'public' },
-        'url' : '../EGL-Registry/extensions/NV/EGL_NV_depth_nonlinear.txt',
+        'url' : '../EGL/extensions/NV/EGL_NV_depth_nonlinear.txt',
     },
     'GL_NV_draw_buffers' : {
         'esnumber' : 91,
@@ -3564,6 +3590,7 @@ registry = {
     },
     'GL_NV_stereo_view_rendering' : {
         'number' : 489,
+        'esnumber' : 296,
         'flags' : { 'public' },
         'url' : 'extensions/NV/NV_stereo_view_rendering.txt',
     },
@@ -3813,7 +3840,7 @@ registry = {
     'GL_OES_EGL_sync' : {
         'esnumber' : 75,
         'flags' : { 'public' },
-        'url' : '../EGL-Registry/extensions/KHR/EGL_KHR_fence_sync.txt',
+        'url' : '../EGL/extensions/KHR/EGL_KHR_fence_sync.txt',
     },
     'GL_OES_blend_equation_separate' : {
         'esnumber' : 1,
@@ -4263,6 +4290,11 @@ registry = {
         'esnumber' : 273,
         'flags' : { 'public' },
         'url' : 'extensions/QCOM/QCOM_framebuffer_foveated.txt',
+    },
+    'GL_QCOM_texture_foveated' : {
+        'esnumber' : 293,
+        'flags' : { 'public' },
+        'url' : 'extensions/QCOM/QCOM_texture_foveated.txt',
     },
     'GL_QCOM_shader_framebuffer_fetch_noncoherent' : {
         'esnumber' : 277,
