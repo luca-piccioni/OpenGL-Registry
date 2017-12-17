@@ -34,7 +34,7 @@ extern "C" {
 **   https://github.com/KhronosGroup/OpenGL-Registry
 */
 
-#define GLX_GLXEXT_VERSION 20171125
+#define GLX_GLXEXT_VERSION 20171212
 
 /* Generated C header for:
  * API: glx
@@ -324,6 +324,10 @@ void glXFreeContextEXT (Display *dpy, GLXContext context);
 #define GLX_EXT_libglvnd 1
 #define GLX_VENDOR_NAMES_EXT              0x20F6
 #endif /* GLX_EXT_libglvnd */
+
+#ifndef GLX_EXT_no_config_context
+#define GLX_EXT_no_config_context 1
+#endif /* GLX_EXT_no_config_context */
 
 #ifndef GLX_EXT_stereo_tree
 #define GLX_EXT_stereo_tree 1
